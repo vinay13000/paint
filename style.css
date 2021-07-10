@@ -1,12 +1,12 @@
-.body_background {
-    background-image: url("MOSHED-2021-6-30-13-42-56-unscreen.png");
+.body_backgorund {
+    background-image:URL("https://images.pexels.com/photos/2919587/pexels-photo-2919587.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
     background-position: center;
     background-size: cover;
-}
-body{
+  }
+  body{
     cursor: pointer;
   }
-  h1
+  #heading
   {
       color: red; 
       font-size: 40px;
@@ -24,6 +24,9 @@ body{
     color: white;
     padding: 10px 42px;
     font-size: 16px;
-    cursor: pointer;
   }
 
+  input
+  {
+    margin-right: 20px;
+  }

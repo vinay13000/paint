@@ -1,40 +1,28 @@
 <html>
-    <head>
-        <title>
-            ADV-C-82-H.W.-PAINT
-        </title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-     
-    </head>
-    <body>
-       
+<head>  
+<link rel="stylesheet" type="text/css" href="style.css">
 
-            <div align="center">
-            <h1>Paint</h1>
-            
-                <canvas id="myCanvas" width="800" height="600"></canvas>
-                    <br><br >            
-                </div>
-                <center>
-               
-                
-                <input id="radius" class="radii" type="number" placeholder="Radius">
-               
-                
-                   
-                
-                <input id="color" type="text" class="radii">
-               
-                
-                <input id="width" type="number" class="radii" placeholder="Width">
-                <div>
-                <button class="button" onclick="cleararea()" >
-                    Erase Area
-            </button>
-        </center>
-        </div>
-                <body class="body_background">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-                    <script src="main.js"></script>
-    </body>
+</head>
+<body class="body_backgorund">
+
+<div align="center">
+<h1 id="heading">Paint</h1>
+
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+        <br><br >
+
+        <span>Color-</span>
+        <input type="text" id="clr" value="black">
+        <span>Width-</span>
+        <input type="text" id="wid" value="2">
+        <button type="button" onclick="cleararea()">Clear Area</button>
+
+    </div>
+<script src="main.js"></script>
+</body>
 </html>
